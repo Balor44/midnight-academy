@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-center px-8 md:px-24">
@@ -24,12 +25,18 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <a href="#start" className="bg-[var(--color-accent)] text-[var(--color-bg)] px-6 py-3 rounded-md font-medium hover:opacity-90 transition">
+          <Link
+            href="/curriculum/what-is-midnight"
+            className="bg-[var(--color-accent)] text-[var(--color-bg)] px-6 py-3 rounded-md font-medium hover:opacity-90 transition"
+          >
             Start learning
-          </a>
-          <a href="#modules" className="border border-[var(--color-muted)] px-6 py-3 rounded-md font-medium hover:border-[var(--color-text)] transition">
+          </Link>
+          <Link
+            href="/curriculum"
+            className="border border-[var(--color-muted)] px-6 py-3 rounded-md font-medium hover:border-[var(--color-text)] transition"
+          >
             See the curriculum
-          </a>
+          </Link>
         </div>
       </div>
     </main>
