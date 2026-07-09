@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0b0e1a;
+  --color-surface: #141826;
+  --color-text: #e8e6f0;
+  --color-muted: #8b8fa3;
+  --color-accent: #7c5cff;
+  --color-verified: #38e5c0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+.redact {
+  background: var(--color-surface);
+  border-radius: 4px;
+  padding: 0 0.3em;
+  color: transparent;
+  cursor: default;
+  transition: color 0.4s ease, background 0.4s ease;
+}
+
+.redact:hover {
+  color: var(--color-verified);
+  background: transparent;
+}
