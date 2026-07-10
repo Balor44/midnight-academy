@@ -3,7 +3,7 @@ const modules = [
   { number: "02", title: "Blockchain Basics", status: "ready", href: "/curriculum/blockchain-basics" },
   { number: "03", title: "Development Environment", status: "ready", href: "/curriculum/development-environment" },
   { number: "04", title: "Your First Project", status: "ready", href: "/curriculum/your-first-project" },
-  { number: "05", title: "Folder Structure", status: "coming soon", href: null },
+  { number: "05", title: "Folder Structure", status: "ready", href: "/curriculum/folder-structure" },
 ];
 
 export default function Curriculum() {
