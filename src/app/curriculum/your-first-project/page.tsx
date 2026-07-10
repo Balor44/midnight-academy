@@ -133,10 +133,10 @@ export default function FirstProject() {
         and <span className="text-[var(--color-verified)] font-mono text-sm">Stores Hello World!</span>
       </p>
 
-      <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
-        <span className="font-mono text-sm text-[var(--color-muted)]">
-          Next: Module 05 — Folder Structure (coming soon)
-        </span>
+     <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
+        <Link href="/curriculum/folder-structure" className="font-mono text-sm text-[var(--color-accent)]">
+          Next: Module 05 — Folder Structure →
+        </Link>
       </div>
     </main>
   );

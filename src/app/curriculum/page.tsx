@@ -1,9 +1,9 @@
 const modules = [
-  { number: "01", title: "What is Midnight?", status: "ready", href: "/curriculum/what-is-midnight" },
-  { number: "02", title: "Blockchain Basics", status: "ready", href: "/curriculum/blockchain-basics" },
-  { number: "03", title: "Development Environment", status: "ready", href: "/curriculum/development-environment" },
-  { number: "04", title: "Your First Project", status: "ready", href: "/curriculum/your-first-project" },
-  { number: "05", title: "Folder Structure", status: "ready", href: "/curriculum/folder-structure" },
+  { number: "01", title: "What is Midnight?", status: "read", href: "/curriculum/what-is-midnight" },
+  { number: "02", title: "Blockchain Basics", status: "read", href: "/curriculum/blockchain-basics" },
+  { number: "03", title: "Development Environment", status: "read", href: "/curriculum/development-environment" },
+  { number: "04", title: "Your First Project", status: "read", href: "/curriculum/your-first-project" },
+  { number: "05", title: "Folder Structure", status: "read", href: "/curriculum/folder-structure" },
 ];
 
 export default function Curriculum() {

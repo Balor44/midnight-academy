@@ -52,10 +52,10 @@ export default function DevEnvironment() {
         config.
       </p>
 
-      <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
-        <span className="font-mono text-sm text-[var(--color-muted)]">
-          Next: Module 04 — Your First Project (coming soon)
-        </span>
+     <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
+        <Link href="/curriculum/your-first-project" className="font-mono text-sm text-[var(--color-accent)]">
+          Next: Module 04 — Your First Project →
+        </Link>
       </div>
     </main>
   );
