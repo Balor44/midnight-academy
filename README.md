@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Midnight Academy
 
-## Getting Started
+A step-by-step learning platform for building privacy-preserving apps on [Midnight](https://midnight.network) — the ZK/selective-disclosure blockchain built on the Polkadot SDK, using the Compact contract language.
 
-First, run the development server:
+**Live site:** [midnight-academy-nine.vercel.app](https://midnight-academy-nine.vercel.app)
 
-```bash
+## Why this exists
+
+Midnight already has excellent official docs (docs.midnight.network) and a certification-focused Academy. This project isn't trying to replace them. It exists to cover what official docs usually don't: real errors, dead ends, and the exact fixes — content written *while* actually building the thing it teaches, not after the fact with the mess edited out.
+
+Module 04, for example, documents a real Windows setup that hit BIOS-level virtualization issues, a WSL1/WSL2 mismatch, and antivirus-corrupted installs — problems a from-memory tutorial would never surface, but that real learners on real machines actually hit.
+
+## What's live
+
+- **Home** — hero, intro to what Midnight is
+- **Curriculum** — 5 complete modules:
+  1. What is Midnight?
+  2. Blockchain Basics
+  3. Development Environment
+  4. Your First Project (real Compact contract, compiled and deployed to a local devnet)
+  5. Understanding the Folder Structure
+- **Videos** — embedded official Midnight content
+- **About** — project philosophy and positioning
+
+## Tech stack
+
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- Deployed on Vercel, auto-deploying from `main`
+
+## Local development
+
+\`\`\`bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] Fundamentals (Modules 01–05)
+- [ ] Mini-projects (Counter, Todo, Voting, Messaging, Identity)
+- [ ] Intermediate architecture topics
+- [ ] Advanced tutorials
+- [ ] Community contribution flow
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Not open yet — will open once the mini-project tier is live and the content approach has been validated further. Found an error already? Open an issue anyway.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Content: CC BY-SA 4.0. Code: MIT.
