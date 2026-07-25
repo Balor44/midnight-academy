@@ -3,9 +3,9 @@ import Link from "next/link";
 const projects = [
   { number: "01", title: "Counter", concept: "State & deployment", status: "read", href: "/projects/counter" },
   { number: "02", title: "Todo App", concept: "CRUD & storage", status: "read", href: "/projects/todo" },
-  { number: "03", title: "Private Voting", concept: "Private votes, verification", status: "coming soon", href: null },
-  { number: "04", title: "Messaging", concept: "Encrypted communication", status: "coming soon", href: null },
-  { number: "05", title: "Identity", concept: "Selective disclosure", status: "coming soon", href: null },
+  { number: "03", title: "Private Voting", concept: "Private votes, verification", status: "read", href: "/projects/voting" },
+  { number: "04", title: "Messaging", concept: "Encrypted communication", status: "read", href: "/projects/messaging" },
+  { number: "05", title: "Identity", concept: "Selective disclosure", status: "read", href: "/projects/identity" },
 ];
 
 export default function Projects() {
