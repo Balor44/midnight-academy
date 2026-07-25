@@ -12,6 +12,9 @@ export default function Nav() {
         <Link href="/curriculum" className="hover:text-[var(--color-text)] transition">
           Curriculum
         </Link>
+        <Link href="/projects" className="hover:text-[var(--color-text)] transition">
+          Projects
+        </Link>
         <Link href="/videos" className="hover:text-[var(--color-text)] transition">
           Videos
         </Link>
