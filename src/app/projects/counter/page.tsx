@@ -67,9 +67,9 @@ export circuit reset(): [] {
       </p>
 
       <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
-        <span className="font-mono text-sm text-[var(--color-muted)]">
-          Next: Project 02 — Todo App (coming soon)
-        </span>
+        <Link href="/projects/todo" className="font-mono text-sm text-[var(--color-accent)]">
+          Next: Project 02 — Todo App →
+        </Link>
       </div>
     </main>
   );

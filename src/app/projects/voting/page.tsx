@@ -78,9 +78,9 @@ export circuit castVote(): [] {
       </p>
 
       <div className="mt-16 pt-8 border-t border-[var(--color-surface)]">
-        <span className="font-mono text-sm text-[var(--color-muted)]">
-          Next: Project 04 — Messaging (coming soon)
-        </span>
+        <Link href="/projects/messaging" className="font-mono text-sm text-[var(--color-accent)]">
+          Next: Project 04 — Messaging →
+        </Link>
       </div>
     </main>
   );
