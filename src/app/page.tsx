@@ -1,7 +1,10 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col justify-center px-8 md:px-24">
+    <main
+      className="min-h-screen flex flex-col justify-center px-8 md:px-24"
+      style={{ backgroundImage: "url('/pattern-redact.svg')", backgroundRepeat: "repeat" }}
+    >
       <div className="max-w-3xl">
         <p className="font-mono text-sm tracking-widest uppercase text-[var(--color-accent)] mb-6">
           Midnight Academy
