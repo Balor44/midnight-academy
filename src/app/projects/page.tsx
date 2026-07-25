@@ -19,8 +19,8 @@ export default function Projects() {
       <ul className="flex flex-col">
         {projects.map((p) => {
           const row = (
-            <div className="flex items-center justify-between py-5">
-              <div className="flex items-center gap-6">
+           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 py-5">
+              <div className="flex items-center gap-4 sm:gap-6">
                 <span className="font-mono text-[var(--color-accent)]">{p.number}</span>
                 <div>
                   <div className="text-lg">{p.title}</div>
